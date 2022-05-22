@@ -1,5 +1,9 @@
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+import InfoIcon from '@mui/icons-material/Info';
+import PaidIcon from '@mui/icons-material/Paid';
+import ReviewsIcon from '@mui/icons-material/Reviews';
+import HelpIcon from '@mui/icons-material/Help';
+import StartIcon from '@mui/icons-material/Start';
+import FeaturedPlayListIcon from '@mui/icons-material/FeaturedPlayList';
 import {
     Box,
     Divider,
@@ -20,7 +24,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
         <List>
             <ListItem button>
                 <ListItemIcon>
-                    <InboxIcon />
+                    <InfoIcon />
                 </ListItemIcon>
                 <ListItemText primary={'About'} />
             </ListItem>
@@ -28,7 +32,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
             <Link to="/" style={{ textDecoration: "none" }}>
                 <ListItem button>
                     <ListItemIcon>
-                        <MailIcon />
+                        <FeaturedPlayListIcon />
                     </ListItemIcon>
                     <ListItemText primary={'Features'} />
                 </ListItem>
@@ -38,7 +42,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
             <Link to="/" style={{ textDecoration: "none" }} >
                 <ListItem button>
                     <ListItemIcon>
-                        <InboxIcon />
+                        <PaidIcon />
                     </ListItemIcon>
                     <ListItemText primary={'Pricing'} />
                 </ListItem>
@@ -47,7 +51,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
             <Link to="/" style={{ textDecoration: "none" }} >
                 <ListItem button>
                     <ListItemIcon>
-                        <InboxIcon />
+                        <ReviewsIcon />
                     </ListItemIcon>
                     <ListItemText primary={'Testimonials'} />
                 </ListItem>
@@ -56,7 +60,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
             <Link to="/" style={{ textDecoration: "none" }} >
                 <ListItem button>
                     <ListItemIcon>
-                        <InboxIcon />
+                        <HelpIcon />
                     </ListItemIcon>
                     <ListItemText primary={'Help'} />
                 </ListItem>
@@ -64,7 +68,7 @@ export const mobileNavList = (anchor, toggleDrawer) => (
 
             <ListItem button>
                 <ListItemIcon>
-                    <MailIcon />
+                    <StartIcon />
                 </ListItemIcon>
                 <ListItemText primary={'Get Started'} />
             </ListItem>

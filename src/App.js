@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from '@mui/material'
 import "./App.css";
-import theme from './theme'
+import theme from './utils/theme'
 
 import RouteComponent from "./Routes.js";
 
