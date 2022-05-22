@@ -10,6 +10,7 @@ export const useStyles = makeStyles((theme) => ({
         marginTop: "9rem !important",
         [theme.breakpoints.down("sm")]: {
             textAlign: "left",
+            marginTop: "4rem !important",
         },
     },
     heading: {

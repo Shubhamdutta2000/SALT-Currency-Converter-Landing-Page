@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <Container>
             <Grid container spacing={2}>
-                <Grid item xs={6} className={classes.leftSide}>
+                <Grid item xs={12} md={6} className={classes.leftSide}>
                     <Typography variant="h2" className={classes.heading}>
                         Not your average banking experience.
                     </Typography>
@@ -20,7 +20,7 @@ const Home = () => {
                         Get Started!
                     </Button>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <img className={classes.HeroImage} src={HeroImage} alt="SALT Logo" />
                 </Grid>
             </Grid>
