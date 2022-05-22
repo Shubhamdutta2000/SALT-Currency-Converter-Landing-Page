@@ -75,7 +75,6 @@ export default function Navbar() {
                                 </Link>
                                 <Link to="/" style={{ textDecoration: "none" }}>
                                     <Button
-                                        variant="contained"
                                         className={classes.navItems_Login}
                                     >
                                         Get Started

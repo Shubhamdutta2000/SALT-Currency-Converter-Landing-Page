@@ -36,7 +36,6 @@ export const useStyles = makeStyles((theme) => ({
 
     },
     rightNav: {
-        margin: "0 0 0 20rem",
         margin: "-0.4rem 0 0 20rem !important",
     },
 
@@ -61,6 +60,7 @@ export const useStyles = makeStyles((theme) => ({
         borderRadius: "50px !important",
         backgroundColor: "transparent !important",
         padding: "0.4rem 2rem !important",
+        textTransform: "none !important",
         "&:hover": {
             color: "#fff !important",
             backgroundColor: theme.palette.primary.main + "!important",
