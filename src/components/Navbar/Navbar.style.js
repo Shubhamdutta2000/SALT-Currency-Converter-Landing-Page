@@ -50,6 +50,7 @@ export const useStyles = makeStyles((theme) => ({
             color: "#1E5EF3 !important",
         },
     },
+
     navItems_Login: {
         color: "#1E5EF3 !important",
         // textTransform: "none",

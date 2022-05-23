@@ -14,6 +14,7 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     pricingHeading: {
+        fontFamily: "HKGroteskBold !important",
         marginTop: "5.4rem !important",
         textAlign: "center",
         fontSize: "2.6rem !important",

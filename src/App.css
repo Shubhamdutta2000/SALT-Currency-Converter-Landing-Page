@@ -1,4 +1,9 @@
 @font-face {
-  font-family: HKGrotesk;
+  font-family: HKGroteskLight;
   src: url(./assets/fonts/hk-grotesk.light-legacy.ttf);
+}
+
+@font-face {
+  font-family: HKGroteskBold;
+  src: url(./assets/fonts/hk-grotesk.bold.ttf);
 }

@@ -68,7 +68,8 @@ export default function Navbar() {
                             <div className={classes.rightNav}>
                                 <Link to="/" style={{ textDecoration: "none" }} >
                                     <Typography variant="description" className={classes.navItems} style={{
-                                        fontWeight: "900",
+                                        fontWeight: "500",
+                                        fontFamily: "HKGroteskBold ",
                                     }}>
                                         Login
                                     </Typography>

@@ -14,6 +14,7 @@ export const useStyles = makeStyles((theme) => ({
         },
     },
     heading: {
+        fontFamily: "HKGroteskBold !important",
         fontSize: "3.2rem !important",
         fontWeight: "900 !important",
         marginBottom: "1.6rem !important",
@@ -23,15 +24,16 @@ export const useStyles = makeStyles((theme) => ({
     },
     paragraph: {
         fontSize: "1.6rem !important",
-        fontWeight: "500 !important",
+        fontWeight: "900 !important",
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {
             fontSize: "1.2rem !important",
         },
     },
     getStartedBtn: {
+        fontFamily: "HKGroteskBold !important",
         fontSize: "1rem !important",
-        fontWeight: "700 !important",
+        fontWeight: "500 !important",
         marginBottom: "1.6rem !important",
         padding: "1rem 3.2rem !important",
         border: "none",

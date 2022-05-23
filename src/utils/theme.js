@@ -23,7 +23,7 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: "HKGrotesk",
+        fontFamily: "HKGroteskLight",
     }
 });
 

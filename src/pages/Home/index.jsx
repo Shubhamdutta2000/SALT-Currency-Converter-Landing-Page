@@ -1,4 +1,5 @@
 import { Container, Typography, Grid } from '@mui/material';
+import { CurrencyConverter } from '../../components/CurrencyConverter';
 import HeroSection from '../../components/HeroSection';
 import { PlanCard } from '../../components/PlanCard';
 import { planDetails } from '../../components/PlanCard/planDetails';
@@ -31,6 +32,7 @@ const Home = () => {
                 </Grid>
 
                 {/* Currency Converter */}
+                <CurrencyConverter />
 
                 {/* Testimonials */}
 

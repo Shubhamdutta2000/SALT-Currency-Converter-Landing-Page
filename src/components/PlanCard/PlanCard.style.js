@@ -25,8 +25,9 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     planTitle: {
+        fontFamily: "HKGroteskBold !important",
         fontSize: "1.5rem",
-        fontWeight: "bolder !important",
+        fontWeight: "500 !important",
         marginTop: "1.5rem !important",
         marginBottom: "1.6rem !important",
     },
@@ -41,8 +42,9 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     planPrice: {
+        fontFamily: "HKGroteskBold !important",
         fontSize: "1.5rem",
-        fontWeight: "bold",
+        fontWeight: "100 !important",
         marginTop: "2.6rem !important",
         marginBottom: "1.2rem !important",
         // fontFamily: 'Inter !important',
@@ -54,10 +56,10 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     planButton: {
+        fontFamily: "HKGroteskBold !important",
         color: "#1E5EF3 !important",
         fontWeight: "900 !important",
         fontSize: "1rem !important",
-        fontFamily: "HKGrotesk" + " !important",
         border: "2px solid #1E5EF3 !important",
         borderRadius: "50px !important",
         backgroundColor: "transparent !important",

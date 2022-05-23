@@ -21,7 +21,7 @@ export const PlanCard = ({ planDetails }) => {
             <Typography variant="h6" className={classes.planPrice}>
                 {planDetails.price}
             </Typography>
-            <Button variant="contained" color="primary" className={classes.planButton}>
+            <Button variant="" className={classes.planButton}>
                 {planDetails.buttonText}
             </Button>
 
