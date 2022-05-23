@@ -12,6 +12,10 @@ import { mobileNavList } from "./MobileNavList";
 import { useStyles } from "./Navbar.style";
 import { NavLogic } from "./Navbar.logic";
 
+/**
+ * 
+ * @returns Navbar component
+ */
 export default function Navbar() {
     const classes = useStyles();
     const { isMobile, hamburger, toggleDrawer } = NavLogic()

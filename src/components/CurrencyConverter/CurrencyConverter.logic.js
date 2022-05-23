@@ -1,8 +1,11 @@
 import React from 'react'
 import currencyConverterApi from '../../api/currencyConverter.api';
 
+/**
+ * 
+ * @returns Currency converter component Logic
+ */
 export const CurrencyConverterLogic = () => {
-
     const [fromCurrency, setFromCurrency] = React.useState("USD");
     const [toCurrency, setToCurrency] = React.useState("USD");
     const [amount, setAmount] = React.useState(0);

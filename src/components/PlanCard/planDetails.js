@@ -1,3 +1,6 @@
+/**
+ * @returns {Array} array of objects of plans
+ */
 export const planDetails = [
     {
         title: 'Free',

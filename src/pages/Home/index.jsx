@@ -5,6 +5,10 @@ import { PlanCard } from '../../components/PlanCard';
 import { planDetails } from '../../components/PlanCard/planDetails';
 import { useStyles } from './Home.style';
 
+/**
+ * 
+ * @returns Home page Page
+ */
 const Home = () => {
     const classes = useStyles();
 

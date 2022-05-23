@@ -1,6 +1,10 @@
 import { useMediaQuery } from "@mui/material";
 import { useState } from "react";
 
+/**
+ * 
+ * @returns Navbar component logic
+ */
 export const NavLogic = () => {
     const isMobile = useMediaQuery("(max-width:600px)");
 

@@ -3,6 +3,11 @@ import React from 'react'
 import { useStyles } from './PlanCard.style'
 import PlanImage from "../../assets/images/PlanSection/planSvg.svg"
 
+/**
+ * 
+ * @param {Object} planDetails 
+ * @returns Plan card component
+ */
 export const PlanCard = ({ planDetails }) => {
     const classes = useStyles()
 

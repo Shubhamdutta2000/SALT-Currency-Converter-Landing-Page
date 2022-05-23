@@ -14,6 +14,12 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
+/**
+ * 
+ * @param {String} anchor 
+ * @param {Function} toggleDrawer 
+ * @returns Mobile NavList component
+ */
 export const mobileNavList = (anchor, toggleDrawer) => (
     <Box
         sx={{ width: 250 }}

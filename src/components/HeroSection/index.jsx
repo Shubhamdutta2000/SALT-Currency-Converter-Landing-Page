@@ -3,6 +3,10 @@ import { Grid, Typography, Button } from "@mui/material"
 import HeroImage from "../../assets/images/HeroSection/Hero.png";
 import { useStyles } from './HeroSection.style';
 
+/**
+ * 
+ * @returns Hero section component
+ */
 const HeroSection = () => {
     const classes = useStyles();
 

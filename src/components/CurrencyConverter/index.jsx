@@ -14,6 +14,10 @@ import arrowBtn from "../../assets/images/arrow-btn.png";
 import icon from "../../assets/images/icon.png";
 import { CurrencyConverterLogic } from "./CurrencyConverter.logic";
 
+/**
+ * 
+ * @returns Currency converter component
+ */
 export const CurrencyConverter = () => {
     const classes = useStyles();
     const { fromCurrency, toCurrency, amount, resAmount, setFromCurrency, setToCurrency, setAmount, convertCurrencyHandler } = CurrencyConverterLogic();
