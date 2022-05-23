@@ -11,7 +11,6 @@ export const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         color: theme.palette.text.primary,
         backgroundColor: theme.palette.background.paper,
-        boxShadow: theme.shadows[2],
         transition: "0.3s",
         background: "#FFFFFF",
         border: "1px solid #1E5EF3",
@@ -44,7 +43,6 @@ export const useStyles = makeStyles((theme) => ({
     planPrice: {
         fontFamily: "HKGroteskBold !important",
         fontSize: "1.5rem",
-        fontWeight: "100 !important",
         marginTop: "2.6rem !important",
         marginBottom: "1.2rem !important",
         // fontFamily: 'Inter !important',

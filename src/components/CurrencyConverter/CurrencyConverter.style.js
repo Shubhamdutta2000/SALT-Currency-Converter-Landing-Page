@@ -39,7 +39,7 @@ export const useStyles = makeStyles((theme) => ({
         left: "50%",
         transform: "translateX(-50%)",
 
-        background: "rgba(30, 94, 243, 0.19) !important",
+        background: "rgba(30, 94, 243, 0.12) !important",
         borderRadius: "50% !important",
 
         [theme.breakpoints.down("sm")]: {

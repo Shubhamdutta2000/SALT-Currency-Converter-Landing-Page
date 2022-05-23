@@ -52,11 +52,10 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     navItems_Login: {
+        fontFamily: "HKGroteskBold !important",
         color: "#1E5EF3 !important",
-        // textTransform: "none",
         fontWeight: "900 !important",
         fontSize: "1rem !important",
-        fontFamily: "HKGrotesk" + " !important",
         border: "2px solid #1E5EF3 !important",
         borderRadius: "50px !important",
         backgroundColor: "transparent !important",

@@ -12,14 +12,11 @@ import React from "react";
 import { useStyles } from "./CurrencyConverter.style";
 import arrowBtn from "../../assets/images/arrow-btn.png";
 import icon from "../../assets/images/icon.png";
+import { CurrencyConverterLogic } from "./CurrencyConverter.logic";
 
 export const CurrencyConverter = () => {
     const classes = useStyles();
-
-    const [fromCurrency, setFromCurrency] = React.useState("USD");
-    const [toCurrency, setToCurrency] = React.useState("USD");
-    const [amount, setAmount] = React.useState(1);
-    const [resAmount, setResAmount] = React.useState(1);
+    const { fromCurrency, toCurrency, amount, resAmount, setFromCurrency, setToCurrency, setAmount, convertCurrencyHandler } = CurrencyConverterLogic();
 
     return (
         <Paper elevation={10} className={classes.paperCurrency}>
@@ -55,9 +52,7 @@ export const CurrencyConverter = () => {
                             displayEmpty
                             inputProps={{ "aria-label": "Without label" }}
                         >
-                            <MenuItem value="IND">
-                                <em>IND</em>
-                            </MenuItem>
+                            <MenuItem value="INR">INR</MenuItem>
                             <MenuItem value={"USD"}>USD</MenuItem>
                             <MenuItem value={"GBP"}>GBP</MenuItem>
                             <MenuItem value={"EUR"}>EUR</MenuItem>
@@ -67,7 +62,7 @@ export const CurrencyConverter = () => {
 
                 {/* Convert Btn */}
                 <Grid item xs={12} sm={6} md={2}>
-                    <Button className={classes.convertBtn}>
+                    <Button onClick={convertCurrencyHandler} className={classes.convertBtn}>
                         <img src={arrowBtn} alt="arrow" />
                     </Button>
                 </Grid>
@@ -82,9 +77,7 @@ export const CurrencyConverter = () => {
                             displayEmpty
                             inputProps={{ "aria-label": "Without label" }}
                         >
-                            <MenuItem value="IND">
-                                <em>IND</em>
-                            </MenuItem>
+                            <MenuItem value="INR">INR</MenuItem>
                             <MenuItem value={"USD"}>USD</MenuItem>
                             <MenuItem value={"GBP"}>GBP</MenuItem>
                             <MenuItem value={"EUR"}>EUR</MenuItem>
