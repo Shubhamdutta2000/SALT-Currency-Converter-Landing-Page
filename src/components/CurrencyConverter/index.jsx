@@ -23,7 +23,7 @@ export const CurrencyConverter = () => {
     const { fromCurrency, toCurrency, amount, resAmount, setFromCurrency, setToCurrency, setAmount, convertCurrencyHandler } = CurrencyConverterLogic();
 
     return (
-        <Paper elevation={10} className={classes.paperCurrency}>
+        <Paper className={classes.paperCurrency}>
             <Grid container spacing={3}>
                 {/* Amount */}
                 <Grid item xs={12} sm={6} md={3}>
@@ -31,8 +31,6 @@ export const CurrencyConverter = () => {
                         className={classes.textField}
                         id="standard-basic"
                         InputProps={{
-                            inputMode: "numeric",
-                            pattern: "[0-9]*",
                             classes: {
                                 input: classes.resize,
                             },
@@ -41,7 +39,6 @@ export const CurrencyConverter = () => {
                         onChange={(e) => setAmount(e.target.value)}
                         label="Amount"
                         variant="standard"
-                        size="large"
                     />
 
                 </Grid>
@@ -95,8 +92,6 @@ export const CurrencyConverter = () => {
                         className={classes.textField}
                         id="standard-basic"
                         InputProps={{
-                            inputMode: "numeric",
-                            pattern: "[0-9]*",
                             classes: {
                                 input: classes.resize,
                             },

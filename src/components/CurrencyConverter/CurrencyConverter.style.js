@@ -2,16 +2,14 @@ import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles((theme) => ({
     paperCurrency: {
-        marginTop: "8rem",
         padding: "90px 6rem 30px 6rem",
         background: "#FFFFFF",
-        boxShadow: "2px 2px 70px rgba(0, 0, 0, 0.05), 0px 47.0588px 95px rgba(0, 0, 0, 0.03), 0px 37.6471px 55.1198px rgba(0, 0, 0, 0.0227778), 0px 17.6471px 29.9782px rgba(0, 0, 0, 0.0182222)",
+        boxShadow: "2px 2px 70px rgba(0, 0, 0, 0.05), 0px 47.0588px 95px rgba(0, 0, 0, 0.03), 0px 37.6471px 55.1198px rgba(0, 0, 0, 0.0227778), 0px 17.6471px 29.9782px rgba(0, 0, 0, 0.23) !important",
         borderRadius: "34px !important",
     },
 
     textField: {
         width: "100%",
-        marginTop: "-0.5rem !important",
 
         [theme.breakpoints.down("sm")]: {
             width: "100%",
@@ -29,7 +27,7 @@ export const useStyles = makeStyles((theme) => ({
         width: "100%",
         marginBottom: "1.6rem !important",
         fontWeight: "800 !important",
-        fontSize: "1.8rem !important",
+        fontSize: "2.1rem !important",
     },
 
     convertBtn: {

@@ -13,12 +13,11 @@ export const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.paper,
         transition: "0.3s",
         background: "#FFFFFF",
-        border: "1px solid #1E5EF3",
+        border: "1.6px solid #1E5EF3",
         boxShadow: "7px 15px 20px rgba(0, 0, 0, 0.04)",
         borderRadius: "20px !important",
         "&:hover": {
             boxShadow: "7px 15px 20px rgba(0, 0, 0, 0.24)",
-            border: "1px solid #1E5EF3",
             background: "#FFFFFF",
         }
     },
