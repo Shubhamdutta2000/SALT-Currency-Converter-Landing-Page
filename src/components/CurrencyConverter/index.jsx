@@ -20,7 +20,7 @@ import { CurrencyConverterLogic } from "./CurrencyConverter.logic";
  */
 export const CurrencyConverter = () => {
     const classes = useStyles();
-    const { fromCurrency, toCurrency, amount, resAmount, setFromCurrency, setToCurrency, setAmount, convertCurrencyHandler } = CurrencyConverterLogic();
+    const { fromCurrency, toCurrency, amount, resAmount, setFromCurrency, setToCurrency, setAmount } = CurrencyConverterLogic();
 
     return (
         <Paper className={classes.paperCurrency}>
@@ -63,7 +63,7 @@ export const CurrencyConverter = () => {
 
                 {/* Convert Btn */}
                 <Grid item xs={12} sm={6} md={2}>
-                    <Button onClick={convertCurrencyHandler} className={classes.convertBtn}>
+                    <Button className={classes.convertBtn}>
                         <img src={arrowBtn} alt="arrow" />
                     </Button>
                 </Grid>

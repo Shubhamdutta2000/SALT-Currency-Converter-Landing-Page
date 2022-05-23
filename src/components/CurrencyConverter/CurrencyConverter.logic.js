@@ -11,13 +11,12 @@ export const CurrencyConverterLogic = () => {
     const [amount, setAmount] = React.useState("0.00000");
     const [resAmount, setResAmount] = React.useState("0.00000");
 
-    const convertCurrencyHandler = async () => {
-        console.log(fromCurrency, toCurrency, amount);
-        const data = await currencyConverterApi(fromCurrency, toCurrency, amount);
-        setResAmount(data);
-    }
 
     useEffect(() => {
+        const convertCurrencyHandler = async () => {
+            const data = await currencyConverterApi(fromCurrency, toCurrency, amount);
+            setResAmount(data);
+        }
         convertCurrencyHandler();
     }, [fromCurrency, toCurrency, amount]);
 
@@ -29,6 +28,5 @@ export const CurrencyConverterLogic = () => {
         setFromCurrency,
         setToCurrency,
         setAmount,
-        convertCurrencyHandler
     }
 }

@@ -3,8 +3,6 @@ import { CurrencyConverter } from '../../components/CurrencyConverter';
 import HeroSection from '../../components/HeroSection';
 import { PlanCard } from '../../components/PlanCard';
 import { planDetails } from '../../data/Plans.list';
-import TestimonialCard from '../../components/TestimonialCard';
-import { testimonialDetails } from '../../data/Testimonials.list';
 import { TestimonialCarousal } from '../../components/TestimonialCarousal';
 import { useStyles } from './Home.style';
 
@@ -49,12 +47,9 @@ const Home = () => {
                 <Typography variant="h2" className={classes.testimonialHeader}>
                     Trusted by Thousands of Happy Customer
                 </Typography>
-
                 <Typography variant="h4" className={classes.testimonialPara}>
                     We are a team of dedicated and passionate people who are committed to provide you the best experience.
                 </Typography>
-
-                {/* Testimonial Carousal */}
                 <TestimonialCarousal />
             </div>
 
