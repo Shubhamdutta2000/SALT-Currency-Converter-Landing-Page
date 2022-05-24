@@ -17,7 +17,7 @@ export const CurrencyConverterLogic = () => {
             const data = await currencyConverterApi(fromCurrency, toCurrency, amount);
             setResAmount(data);
         }
-        if (amount !== "0.00000" || amount !== "" || amount !== "0") {
+        if (amount !== "0.00000" && amount !== "" && amount !== "0") {
             convertCurrencyHandler();
         }
     }, [fromCurrency, toCurrency, amount]);
