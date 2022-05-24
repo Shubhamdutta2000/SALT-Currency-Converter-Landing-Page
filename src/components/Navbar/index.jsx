@@ -73,7 +73,7 @@ export default function Navbar() {
                                 <Link to="/" style={{ textDecoration: "none" }} >
                                     <Typography variant="description" className={classes.navItems} style={{
                                         fontWeight: "500",
-                                        fontFamily: "HKGroteskBold ",
+                                        fontFamily: "HKGroteskBold",
                                     }}>
                                         Login
                                     </Typography>
