@@ -6,6 +6,7 @@ import { planDetails } from '../../dummyData/Plans.list';
 import { TestimonialCarousal } from '../../components/TestimonialCarousal';
 import { useStyles } from './Home.style';
 import { NewsLetter } from '../../components/NewsLetter';
+import { Footer } from '../../components/Footer';
 
 /**
  * 
