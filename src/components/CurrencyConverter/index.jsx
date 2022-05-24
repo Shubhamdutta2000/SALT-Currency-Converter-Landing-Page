@@ -63,9 +63,9 @@ export const CurrencyConverter = () => {
 
                 {/* Convert Btn */}
                 <Grid item xs={12} sm={6} md={2}>
-                    <Button className={classes.convertBtn}>
+                    <div className={classes.convertBtn}>
                         <img src={arrowBtn} alt="arrow" />
-                    </Button>
+                    </div>
                 </Grid>
 
                 {/* Dropdown of Currency */}

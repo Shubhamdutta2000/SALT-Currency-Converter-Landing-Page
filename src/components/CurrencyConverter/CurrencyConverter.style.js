@@ -31,8 +31,10 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     convertBtn: {
-        padding: "1rem 0 !important",
-        marginTop: "0.4rem !important",
+        width: "2.2rem",
+        height: "2.2rem",
+        padding: "0.4rem 0.64rem !important",
+        marginTop: "1rem !important",
         position: "relative",
         left: "50%",
         transform: "translateX(-50%)",
@@ -41,7 +43,8 @@ export const useStyles = makeStyles((theme) => ({
         borderRadius: "50% !important",
 
         [theme.breakpoints.down("sm")]: {
-            width: "100%",
+            width: "2.2rem",
+            height: "2.2rem",
         },
     },
 

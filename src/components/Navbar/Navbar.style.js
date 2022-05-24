@@ -45,7 +45,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "17.5px !important",
         lineHeight: "21px !important",
         color: "161616; !important",
-        paddingRight: "2rem !important",
+        paddingRight: "1rem !important",
         "&:hover": {
             color: "#1E5EF3 !important",
         },

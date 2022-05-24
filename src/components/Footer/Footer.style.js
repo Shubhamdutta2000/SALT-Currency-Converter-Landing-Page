@@ -27,6 +27,10 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: "1.2rem !important",
     },
 
+    footerLink: {
+        textDecoration: "none !important",
+    },
+
     footerPara2: {
         width: "80%",
         fontSize: "0.9rem !important",
@@ -34,6 +38,10 @@ export const useStyles = makeStyles((theme) => ({
         color: "#434343",
         marginBottom: "0.8rem !important",
         textAlign: "left",
+        '&:hover': {
+            color: "#1E5EF3 !important",
+            fontWeight: "900 !important",
+        }
     },
 
     social: {

@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid, Link, Typography } from '@mui/material'
 import React from 'react'
 import FacebookIcon from "../../assets/images/Socials/facebook.png"
 import TwitterIcon from "../../assets/images/Socials/twitter.png"
@@ -30,21 +30,30 @@ export const Footer = () => {
                     <Typography variant="h6" className={classes.footerPara1}>
                         Company
                     </Typography>
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        About Us
-                    </Typography>
 
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        Blog
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            About Us
+                        </Typography>
+                    </Link>
 
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        Career
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            Blog
+                        </Typography>
+                    </Link>
 
-                    <Typography style={{ fontWeight: "900" }} variant="h6" className={classes.footerPara2}>
-                        contact@salt.pe
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            Career
+                        </Typography>
+                    </Link>
+
+                    <Link href="mailto:salt.pe" className={classes.footerLink}>
+                        <Typography style={{ fontWeight: "900" }} variant="h6" className={classes.footerPara2}>
+                            contact@salt.pe
+                        </Typography>
+                    </Link>
 
                 </Grid>
 
@@ -52,26 +61,34 @@ export const Footer = () => {
                     <Typography variant="h6" className={classes.footerPara1}>
                         Add us to your life!
                     </Typography>
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        <img src={FacebookIcon} alt="facebook" className={classes.socialIcon} />
-                        Facebook
-                    </Typography>
 
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        <img src={TwitterIcon} alt="twitter" className={classes.socialIcon} />
-                        Twitter
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            <img src={FacebookIcon} alt="facebook" className={classes.socialIcon} />
+                            Facebook
+                        </Typography>
+                    </Link>
 
-                    <Typography variant="h6" className={classes.footerPara2}>
-                        <img src={LinkedinIcon} alt="linkedIn" className={classes.socialIcon} />
-                        LinkedIn
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            <img src={TwitterIcon} alt="twitter" className={classes.socialIcon} />
+                            Twitter
+                        </Typography>
+                    </Link>
 
-                    <Typography style={{ fontWeight: "900" }} variant="h6" className={classes.footerPara2}>
-                        <img src={InstagramIcon} alt="instagram" className={classes.socialIcon} />
-                        Instagram
-                    </Typography>
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography variant="h6" className={classes.footerPara2}>
+                            <img src={LinkedinIcon} alt="linkedIn" className={classes.socialIcon} />
+                            LinkedIn
+                        </Typography>
+                    </Link>
 
+                    <Link href="#" className={classes.footerLink}>
+                        <Typography style={{ fontWeight: "900" }} variant="h6" className={classes.footerPara2}>
+                            <img src={InstagramIcon} alt="instagram" className={classes.socialIcon} />
+                            Instagram
+                        </Typography>
+                    </Link>
                 </Grid>
 
             </Grid>
