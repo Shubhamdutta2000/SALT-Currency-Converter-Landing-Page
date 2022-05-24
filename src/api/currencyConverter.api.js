@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'https://api.apilayer.com/fixer';
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 /**
  * 
@@ -17,7 +17,6 @@ const currencyConverterApi = async (from, to, amount) => {
             }
         }
         let { data } = await axios.get(`${BASE_URL}/convert?to=${to}&from=${from}&amount=${amount}`, config);
-        console.log(data.result);
         return data.result;
     } catch (error) {
         console.log(error.message);

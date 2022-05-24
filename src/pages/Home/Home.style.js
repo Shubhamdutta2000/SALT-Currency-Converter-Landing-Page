@@ -48,7 +48,6 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     testimonialSection: {
-        backgroundColor: "#F6F6F6",
         marginTop: "6rem",
         marginBottom: "2rem",
         padding: "10px 9rem",
@@ -69,6 +68,7 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem !important",
+            width: "100%",
 
         },
     },
@@ -85,7 +85,17 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {
             fontSize: "1.2rem !important",
+            width: "100%",
         },
+    },
+
+    newsletterSection: {
+        padding: "10px 9rem",
+        marginTop: "3rem",
+        marginBottom: "2rem",
+        [theme.breakpoints.down("sm")]: {
+            padding: "10px 1rem",
+        }
     },
 
 }));

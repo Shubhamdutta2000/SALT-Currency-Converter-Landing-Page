@@ -2,9 +2,10 @@ import { Container, Typography, Grid } from '@mui/material';
 import { CurrencyConverter } from '../../components/CurrencyConverter';
 import HeroSection from '../../components/HeroSection';
 import { PlanCard } from '../../components/PlanCard';
-import { planDetails } from '../../data/Plans.list';
+import { planDetails } from '../../dummyData/Plans.list';
 import { TestimonialCarousal } from '../../components/TestimonialCarousal';
 import { useStyles } from './Home.style';
+import { NewsLetter } from '../../components/NewsLetter';
 
 /**
  * 
@@ -54,6 +55,9 @@ const Home = () => {
             </div>
 
             {/* Newsletter Section */}
+            <div className={classes.newsletterSection}>
+                <NewsLetter />
+            </div>
         </>
     )
 }

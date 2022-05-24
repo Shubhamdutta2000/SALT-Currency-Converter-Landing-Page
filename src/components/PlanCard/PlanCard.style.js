@@ -35,7 +35,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "1.1rem !important",
         paddingBottom: theme.spacing(1),
         fontWeight: "500 !important",
-        color: "#565050",
+        color: "#979797",
         textAlign: "left",
     },
 

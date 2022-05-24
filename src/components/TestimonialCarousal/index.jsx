@@ -6,17 +6,18 @@ import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 import { useStyles } from './TestimonialCarousal.style';
-import { testimonialDetails } from '../../data/Testimonials.list'
+import { testimonialDetails } from '../../dummyData/Testimonials.list'
 import TestimonialCard from '../TestimonialCard'
 
 export const TestimonialCarousal = () => {
     const classes = useStyles();
+    const isMobile = window.innerWidth < 768;
 
     return (
         <>
             <Swiper
                 className={classes.testimonialCarousal}
-                slidesPerView={3}
+                slidesPerView={isMobile ? 1 : 3}
                 spaceBetween={30}
                 freeMode={true}
                 loop={true}
