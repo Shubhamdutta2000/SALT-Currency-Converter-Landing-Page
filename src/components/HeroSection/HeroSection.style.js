@@ -23,7 +23,9 @@ export const useStyles = makeStyles((theme) => ({
         },
     },
     paragraph: {
-        fontSize: "1.6rem !important",
+        width: "70%",
+        color: "#161616",
+        fontSize: "1.2rem !important",
         fontWeight: "900 !important",
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {

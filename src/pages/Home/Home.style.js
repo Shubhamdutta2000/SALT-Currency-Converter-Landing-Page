@@ -25,11 +25,13 @@ export const useStyles = makeStyles((theme) => ({
         },
     },
     pricingPara: {
-        width: "80%",
+        width: "50%",
+        color: "#818181",
         position: "relative",
-        left: "10%",
+        left: "50%",
+        transform: "translateX(-50%)",
         textAlign: "center",
-        fontSize: "1.6rem !important",
+        fontSize: "1.2rem !important",
         fontWeight: "500 !important",
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {
@@ -75,12 +77,13 @@ export const useStyles = makeStyles((theme) => ({
 
     testimonialPara: {
         width: "50%",
+        color: "#818181",
         position: "relative",
         left: "50%",
         transform: "translateX(-50%)",
         textAlign: "center",
 
-        fontSize: "1.4rem !important",
+        fontSize: "1.2rem !important",
         fontWeight: "500 !important",
         marginBottom: "1.6rem !important",
         [theme.breakpoints.down("sm")]: {

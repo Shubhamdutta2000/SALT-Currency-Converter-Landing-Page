@@ -10,7 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     newsletterHeading: {
         width: "43%",
         fontFamily: "'Inter', sans-serif !important",
-        fontSize: "1.6rem",
+        fontSize: "2rem !important",
         fontWeight: "900 !important",
         marginBottom: "0.3rem !important",
         lineHeight: "1.3 !important",
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
 
     newsletterPara: {
         marginRight: "auto !important",
-        fontSize: "1.1rem !important",
+        fontSize: "0.9rem !important",
         paddingBottom: theme.spacing(1),
         fontWeight: "900 !important",
         color: "#818181 !important",
